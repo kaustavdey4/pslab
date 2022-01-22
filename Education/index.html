@@ -411,8 +411,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#some-more-need-to-be-done" class="md-nav__link">
-    Some more need to be done.
+  <a href="#font-style-check" class="md-nav__link">
+    Font style check
   </a>
   
 </li>
@@ -575,8 +575,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#some-more-need-to-be-done" class="md-nav__link">
-    Some more need to be done.
+  <a href="#font-style-check" class="md-nav__link">
+    Font style check
   </a>
   
 </li>
@@ -596,24 +596,44 @@
 
 <h1 id="testing-page">Testing page</h1>
 <p>The <code> mkdcos.yml </code> file detail is as shown:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>site_name: My Docs
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>site_name: Power Systems Laboratory
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>nav:
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>   - Home: index.md
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>   - Testing page: Education.md
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>theme: readthedocs
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>extra_javascript:
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config<span class="o">=</span>TeX-AMS-MML_HTMLorMML
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>markdown_extensions:
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    - mdx_math
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    - attr_list
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    - md_in_html
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    - pymdownx.highlight:
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>         anchor_linenums: <span class="nb">true</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>    - pymdownx.inlinehilite
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>    - pymdownx.snippets
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>    - pymdownx.superfences
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  - Home: index.md
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  - Topics:
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    - Synchronous Machines: synchronous.md
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    - Induction Machines: induction.md
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    - Experiments: experiments.md
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    - Forward Euler: forward_euler.md
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    - Education: Education.md
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>  - About: about.md
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>theme: 
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    name: material
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    highlightjs: <span class="nb">true</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    hljs_languages:
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>        - yaml
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>        - rust
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>markdown_extensions:
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>  - attr_list
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>  - md_in_html
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>  - pymdownx.highlight:
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>         anchor_linenums: <span class="nb">true</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>  - pymdownx.inlinehilite
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>  - pymdownx.snippets
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>  - pymdownx.superfences
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>  - def_list
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>  - tables
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>  - pymdownx.tasklist:
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>      custom_checkbox: <span class="nb">true</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>  - pymdownx.emoji:
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>      emoji_index: !!python/name:materialx.emoji.twemoji
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>      emoji_generator: !!python/name:materialx.emoji.to_svg
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>  - pymdownx.pathconverter:
+<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>      base_path: <span class="s1">&#39;..&#39;</span>
+<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>      relative_path: <span class="s1">&#39;..&#39;</span>
+<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>      absolute: <span class="nb">false</span>
+<a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>      tags: <span class="s1">&#39;a script img link object embed&#39;</span>
+<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>extra_javascript:
+<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>  - <span class="s1">&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML&#39;</span>
 </code></pre></div>
 <p>The folder tree is as shown:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>tree /F
@@ -794,8 +814,35 @@ Output:</p>
 </tbody>
 </table>
 <hr />
-<h2 id="some-more-need-to-be-done">Some more need to be done.</h2>
-<p>**</p>
+<h2 id="font-style-check">Font style check</h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>Checking <span class="k">for</span> <span class="se">\\</span><span class="o">(</span><span class="se">\b</span>f bold<span class="se">\\</span><span class="o">)</span> fonts.
+</code></pre></div>
+<p>Checking for \(\bf bold\) fonts.</p>
+<hr />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Checking <span class="k">for</span> <span class="se">\\</span><span class="o">(</span><span class="se">\i</span>t italics<span class="se">\\</span><span class="o">)</span> fonts.
+</code></pre></div>
+<p>Checking for \(\it italics\) fonts. </p>
+<hr />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>Checking <span class="k">for</span> <span class="se">\\</span><span class="o">(</span><span class="se">\s</span>mall <span class="se">\t</span>ext<span class="o">{</span>small<span class="o">}</span><span class="se">\\</span><span class="o">)</span> fonts.
+</code></pre></div>
+<p>Checking for \(\small \text{small}\) fonts.</p>
+<hr />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>Checking <span class="k">for</span> <span class="se">\\</span><span class="o">(</span><span class="se">\h</span>uge <span class="se">\t</span>ext<span class="o">{</span>huge<span class="o">}</span><span class="se">\\</span><span class="o">)</span> fonts.
+</code></pre></div>
+<p>Checking for \(\huge \text{huge}\) fonts.</p>
+<hr />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>Checking <span class="k">for</span> <span class="se">\\</span><span class="o">(</span> <span class="se">\c</span>olor<span class="o">{</span>red<span class="o">}{</span><span class="se">\t</span>ext<span class="o">{</span>red<span class="o">}}</span><span class="se">\\</span><span class="o">)</span> fonts.
+</code></pre></div>
+<p>Checking for \( \color{red}{\text{red}}\) fonts.</p>
+<hr />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>Checking <span class="k">for</span> <span class="se">\\</span><span class="o">(</span><span class="se">\h</span>uge <span class="se">\i</span>t <span class="se">\c</span>olor<span class="o">{</span>blue<span class="o">}{</span><span class="se">\t</span>ext<span class="o">{</span>blue<span class="o">}}</span><span class="se">\\</span><span class="o">)</span> fonts.
+</code></pre></div>
+<p>Checking for \(\huge \it \color{blue}{\text{blue}}\) fonts.</p>
+<hr />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>Checking <span class="k">for</span> <span class="se">\\</span><span class="o">(</span><span class="se">\H</span>uge <span class="se">\t</span>t <span class="se">\c</span>olor<span class="o">{</span>magenta<span class="o">}{</span><span class="se">\t</span>ext<span class="o">{</span>typewriter magenta<span class="o">}}</span><span class="se">\\</span><span class="o">)</span> fonts.
+</code></pre></div>
+<p>Checking for \(\Huge \tt \color{magenta}{\text{typewriter magenta}}\) fonts.</p>
+<hr />
 
               
             </article>
